@@ -196,7 +196,7 @@ label svg:nth-of-type(1) {
 /* ✅ Ajuste especial para móviles */
 @media (max-width: 600px) {
   .title {
-    font-size: 1.5rem; /* 🔹 más grande que ahora en móviles */
+    font-size: 3.5rem; /* 🔹 más grande que ahora en móviles */
     width: 90%;        /* 🔹 asegura que no se corte */
     line-height: 1.4;  /* 🔹 mejora lectura */
   }
