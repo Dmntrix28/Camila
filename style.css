@@ -185,25 +185,27 @@ label svg:nth-of-type(1) {
   transform: translateX(-50%);
   text-align: center;
   font-family: 'Comic Sans MS', cursive, sans-serif;
-  font-size: 2.2rem; /* 🔹 tamaño más grande para desktop */
+  font-size: 3rem; /* ✅ más grande en desktop */
   color: #fff;
   text-shadow: 2px 2px 8px #000;
   opacity: 1;
-  transition: opacity 1s ease;
+  transition: opacity 1.5s ease; /* animación más suave */
   z-index: 10;
+  width: 80%;
+  line-height: 1.4;
 }
 
 /* ✅ Ajuste especial para móviles */
 @media (max-width: 600px) {
   .title {
-    font-size: 3.5rem; /* 🔹 más grande que ahora en móviles */
-    width: 90%;        /* 🔹 asegura que no se corte */
-    line-height: 1.4;  /* 🔹 mejora lectura */
+    font-size: 2.3rem; /* ✅ tamaño legible en móvil */
+    width: 90%;
+    line-height: 1.4;
   }
 }
-
 
 .hidden {
   opacity: 0;
   pointer-events: none;
 }
+
